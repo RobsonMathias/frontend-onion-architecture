@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUpPage should render successfully 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-36s324"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthXs css-nzinn5-MuiContainer-root"
+      >
+        <div
+          class="MuiBox-root css-10ib5jr"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 css-gepadz-MuiTypography-root"
+          >
+            Criar conta
+          </h3>
+        </div>
+        <div />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+  <meta charset='utf-8' />
+  <link rel='icon' href='%PUBLIC_URL%/favicon.ico' />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <meta name='theme-color' content='#000000' />
+  <link rel='preconnect' href='https://fonts.gstatic.com'>
+  <link href='https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap' rel='stylesheet'>
+
+  <meta
+    name='description'
+    content='Exemplo de arquitetura Onion para Front-End'
+  />
+  <meta name='keywords' content='Keywords' />
+  <title>To-Do</title>
+
+  <!-- Android  -->
+  <meta name='theme-color' content='black' />
+  <meta name='mobile-web-app-capable' content='yes' />
+
+  <!-- iOS -->
+  <meta name='apple-mobile-web-app-title' content='To-Do' />
+  <meta name='apple-mobile-web-app-capable' content='yes' />
+  <meta name='apple-mobile-web-app-status-bar-style' content='default' />
+
+  <!-- Windows  -->
+  <meta name='msapplication-navbutton-color' content='#00aba9' />
+  <meta name='msapplication-TileColor' content='#ffffff' />
+  <meta name='theme-color' content='#ffffff' />
+  <meta name='msapplication-TileImage' content='ms-icon-144x144.png' />
+  <meta name='msapplication-config' content='%PUBLIC_URL%/browserconfig.xml' />
+
+  <!-- Pinned Sites  -->
+  <meta name='application-name' content='To-Do' />
+  <meta name='msapplication-tooltip' content='To-Do' />
+  <meta name='msapplication-starturl' content='%PUBLIC_URL%' />
+
+  <!-- Tap highlighting  -->
+  <meta name='msapplication-tap-highlight' content='no' />
+
+  <!-- UC Mobile Browser  -->
+  <meta name='full-screen' content='yes' />
+  <meta name='browsermode' content='application' />
+
+  <!-- Disable night mode for this page  -->
+  <meta name='nightmode' content='enable/disable' />
+
+  <!-- Layout mode -->
+  <meta name='layoutmode' content='fitscreen/standard' />
+
+  <!-- imagemode - show image even in text only mode  -->
+  <meta name='imagemode' content='force' />
+
+  <!-- Orientation  -->
+  <meta name='screen-orientation' content='portrait' />
+
+  <!-- Org Tag  -->
+  <title data-react-helmet='true'>To-Do</title>
+  <meta data-react-helmet='true' name='description'
+        content='To-Do é um meio de pagamento que libera o seu saldo das suas maquininhas. Sem taxas de antecipação de recebíveis. Sem negociar prazo e limite com fornecedor. É mais crédito e capital de giro. É mais liberdade para você tocar o seu negócio!' />
+  <meta data-react-helmet='true' property='og:title' content='To-Do' />
+  <meta data-react-helmet='true' property='og:description'
+        content='To-Do é um meio de pagamento que libera o seu saldo das suas maquininhas. Sem taxas de antecipação de recebíveis. Sem negociar prazo e limite com fornecedor. É mais crédito e capital de giro. É mais liberdade para você tocar o seu negócio!' />
+  <meta data-react-helmet='true' property='og:type' content='website' />
+  <meta data-react-helmet='true' name='twitter:card' content='summary' />
+  <meta data-react-helmet='true' name='twitter:creator' content='@To-Do' />
+  <meta data-react-helmet='true' name='twitter:title' content='' />
+  <meta data-react-helmet='true' name='twitter:description'
+        content='To-Do é um meio de pagamento que libera o seu saldo das suas maquininhas. Sem taxas de antecipação de recebíveis. Sem negociar prazo e limite com fornecedor. É mais crédito e capital de giro. É mais liberdade para você tocar o seu negócio!' />
+  <meta data-react-helmet='true' property='og:image' content='%PUBLIC_URL%/main-og.png' />
+
+  <!-- Main Link Tags  -->
+  <link href='%PUBLIC_URL%/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
+  <link href='%PUBLIC_URL%/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
+
+  <!-- iOS  -->
+  <link rel='apple-touch-icon' sizes='180x180' href='%PUBLIC_URL%/apple-touch-icon.png' />
+  <link href='%PUBLIC_URL%/apple-touch-icon.png' rel='apple-touch-icon' />
+  <link href='%PUBLIC_URL%/apple-touch-icon.png' rel='apple-touch-icon' sizes='76x76' />
+  <link href='%PUBLIC_URL%/apple-touch-icon.png' rel='apple-touch-icon' sizes='120x120' />
+  <link href='%PUBLIC_URL%/apple-touch-icon.png' rel='apple-touch-icon' sizes='152x152' />
+
+  <!-- Startup Image  -->
+  <link href='%PUBLIC_URL%/apple-touch-icon.png' rel='apple-touch-startup-image' />
+
+  <!-- Android  -->
+  <link href='%PUBLIC_URL%/android-chrome-192x192.png' rel='icon' sizes='192x192' />
+  <link href='%PUBLIC_URL%/android-chrome-192x192.png' rel='icon' sizes='128x128' />
+
+  <!-- Others -->
+  <link href='%PUBLIC_URL%/favicon.ico' rel='shortcut icon' type='image/x-icon' />
+
+  <!--
+    manifest.json provides metadata used when your web app is installed on a
+    user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+  -->
+  <link rel='manifest' href='%PUBLIC_URL%/manifest.json' />
+  <!--
+    Notice the use of %PUBLIC_URL% in the tags above.
+    It will be replaced with the URL of the `public` folder during the build.
+    Only files inside the `public` folder can be referenced from the HTML.
+
+    Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+    work correctly both with client-side routing and a non-root public URL.
+    Learn how to configure a non-root public URL by running `npm run build`.
+  -->
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id='root'></div>
+<!--
+  This HTML file is a template.
+  If you open it directly in the browser, you will see an empty page.
+
+  You can add webfonts, meta tags, or analytics to this file.
+  The build step will place the bundled scripts into the <body> tag.
+
+  To begin the development, run `npm start` or `yarn start`.
+  To create a production bundle, use `npm run build` or `yarn build`.
+-->
+</body>
+</html>

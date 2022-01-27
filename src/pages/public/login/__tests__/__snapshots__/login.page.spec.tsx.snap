@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage should render successfully 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-36s324"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthXs css-nzinn5-MuiContainer-root"
+      >
+        <div
+          class="MuiBox-root css-10ib5jr"
+        >
+          <h1
+            class="MuiTypography-root MuiTypography-h2 css-1sra7t5-MuiTypography-root"
+          >
+            Olá
+          </h1>
+        </div>
+        <div />
+        <div
+          class="MuiBox-root css-131uyni"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+            >
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+              />
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-overline MuiTypography-alignCenter css-e1onu5-MuiTypography-root"
+              >
+                OU
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+            >
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+              />
+            </div>
+          </div>
+        </div>
+        <div />
+      </div>
+    </div>
+  </div>
+</div>
+`;

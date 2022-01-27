@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Router should render successfully 1`] = `
+<div>
+  <div />
+  <div />
+</div>
+`;

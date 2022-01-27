@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@fixtures": ["src/@fixtures"],
+      "@fixtures/*": ["src/@fixtures/*"],
+      "@types": ["src/@types"],
+      "@types/*": ["src/@types/*"],
+      "modules": ["src/modules"],
+      "modules/*": ["src/modules/*"],
+      "layouts": ["src/layouts"],
+      "layouts/*": ["src/layouts/*"],
+      "services": ["src/services"],
+      "services/*": ["src/services/*"],
+      "stores": ["./src/stores"],
+      "stores/*": ["./src/stores/*"],
+      "pages": ["src/pages"],
+      "pages/*": ["src/pages/*"],
+      "constants/*": ["src/constants/*"],
+      "adapters": ["src/adapters"],
+      "adapters/*": ["src/adapters/*"],
+      "wrappers": ["src/wrappers"],
+      "wrappers/*": ["src/wrappers/*"]
+    }
+  }
+}

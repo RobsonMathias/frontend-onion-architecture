@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewComponent should render successfully 1`] = `
+<div>
+  <form>
+    <div
+      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+    >
+      <div
+        class="MuiFormControl-root MuiTextField-root css-te7hn0-MuiFormControl-root-MuiTextField-root"
+      >
+        <label
+          class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-filled MuiFormLabel-root MuiFormLabel-colorPrimary css-e4w4as-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for="mui-1"
+          id="mui-1-label"
+        >
+          Insira uma atividade
+        </label>
+        <div
+          class="MuiFilledInput-root MuiFilledInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-cio0x1-MuiInputBase-root-MuiFilledInput-root"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiFilledInput-input MuiInputBase-input css-10botns-MuiInputBase-input-MuiFilledInput-input"
+            data-testid="description"
+            id="mui-1"
+            name="description"
+            type="text"
+            value=""
+          />
+        </div>
+        
+      </div>
+      <button
+        aria-label="Adicionar"
+        class="MuiButton-root MuiButton-contained MuiButton-containedSecondary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-zcbmsk-MuiButtonBase-root-MuiButton-root"
+        data-testid="submit"
+        tabindex="0"
+        type="submit"
+      >
+        <svg
+          fill="currentColor"
+          height="24"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"
+          />
+        </svg>
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </form>
+</div>
+`;

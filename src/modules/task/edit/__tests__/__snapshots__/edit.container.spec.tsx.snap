@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditContainer should render successfully 1`] = `
+<div>
+  <div
+    data-testid="mock"
+  />
+  <div
+    data-testid="mock-canceled"
+  />
+</div>
+`;

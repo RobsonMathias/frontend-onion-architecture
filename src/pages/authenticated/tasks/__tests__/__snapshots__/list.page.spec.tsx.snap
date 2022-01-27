@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListPage should render successfully 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-36s324"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container css-1vam7s3-MuiGrid-root"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthXs css-nzinn5-MuiContainer-root"
+      >
+        <div
+          class="MuiBox-root css-1qm1lh"
+        >
+          <div />
+        </div>
+        <div />
+      </div>
+    </div>
+  </div>
+</div>
+`;
