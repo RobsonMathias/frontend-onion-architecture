@@ -1,6 +1,8 @@
 # To-Do List Application
 
-Esse projeto é um exemplo prático de uma composição baseada padrão de projeto conhecido como Onion Architecture
+Esse projeto é um exemplo prático de uma composição baseada padrão de projeto conhecido como Onion Architecture.
+
+Nenhuma das funcionalidades aqui possuí algum endpoint com back-end ou integração com o Goolgle, todos os dados são salvos localmente.
 
 ## Getting Started
 
@@ -9,10 +11,10 @@ Esse projeto é um exemplo prático de uma composição baseada padrão de proje
 
 ## Features
 
-- Sign In
-- Sign Up
+- Login
+- Cadastro
 - Logout
-- Sign Up com Google
+- Cadastrar com Google
 - Gerenciamento de tarefas
 
 ## Development
